@@ -19,7 +19,8 @@ export default function AboutMe() {
       }}
     >
       <Container>
-        <Card className=" d-flex flex-row justify-content-evenly bg-transparent gx-5 p-4 mt-5">
+        <Card className=" d-flex flex-row justify-content-evenly bg-transparent gx-5 p-4"
+         style={{ marginTop:"80px"}}>
           <a href="https://github.com/Solarius24">
             <FontAwesomeIcon icon={faGithub} className="fa-3x" />
           </a>

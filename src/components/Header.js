@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <>
       <div
-        className=" sm-2"
+        className=" sm-2 "
         style={{
           backgroundImage: `url(${bgHome})`,
           backgroundSize: "cover",
@@ -29,8 +29,8 @@ export default function Header() {
           }}
         />
         <Card
-          className="d-flex bg-dark bg-opacity-75 text-wrap mt-5 "
-          style={{ maxWidth: "24rem", zIndex: 1}}
+          className="d-flex bg-dark bg-opacity-75 text-wrap "
+          style={{ maxWidth: "24rem", zIndex: 1, marginTop:"80px"}}
         >
           <Card.Body className="text-warning p-3">
             <Image roundedCircle src={myPhoto}></Image>

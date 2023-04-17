@@ -61,6 +61,7 @@ export default function Contact() {
           position: "relative",
           top: "5rem",
           maxWidth: "40rem",
+          marginTop:"70px"
         }}
       >
         <Form ref={form} onSubmit={sendEmail}>

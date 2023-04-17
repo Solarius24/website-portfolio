@@ -7,6 +7,7 @@ import Container from "react-bootstrap/Container";
 export default function Navigation() {
   return (
     <Navbar fixed="top" bg="dark" expand="md" className="px-3">
+      <Navbar.Text className="text-white">codewars</Navbar.Text>
       <Image src=" https://www.codewars.com/users/Solarius24/badges/micro" />
       <Container fluid>
         <Navbar.Toggle
