@@ -60,16 +60,16 @@ export default function AboutMe() {
             </Card.Header>
             <ListGroup variant="flush">
               <ListGroup.Item className="bg-warning h5">
-                CSS - The Complete Guide 2023 (incl. Flexbox, Grid & Sass) The
-                Net Ninja (Shaun Pelling)
+                CSS - The Complete Guide 2023 (incl. Flexbox, Grid & Sass)
+                by Shaun Pelling
               </ListGroup.Item>
               <ListGroup.Item className="bg-warning h5">
-                Modern JavaScript (Complete guide, from Novice to Ninja) The Net
-                Ninja (Shaun Pelling){" "}
+                Modern JavaScript (Complete guide, from Novice to Ninja)
+                by Shaun Pelling
               </ListGroup.Item>
               <ListGroup.Item className="bg-warning h5">
-                Accelerated ES6 JavaScript Training The Net Ninja (Shaun
-                Pelling){" "}
+                Accelerated ES6 JavaScript Training by Shaun
+                Pelling
               </ListGroup.Item>
               <ListGroup.Item className="bg-warning h5">
                 JavaScript - The Complete Guide 2023 (Beginner + Advanced)
@@ -79,6 +79,16 @@ export default function AboutMe() {
                 React - The Complete Guide (incl Hooks, React Router, Redux)
                 Academind by Maximilian Schwarzmüller.
               </ListGroup.Item>
+              <ListGroup.Item className="bg-warning h5">
+               Understanding TypeScript(all about core types, generics, TypeScript + React )
+                Academind by Maximilian Schwarzmüller.
+              </ListGroup.Item>
+              <ListGroup.Item className="bg-warning h5">
+              Typescript: The Complete Developer's Guide
+              by Stephen Grider
+              </ListGroup.Item>
+
+
             </ListGroup>
           </Card>
         </CardGroup>
