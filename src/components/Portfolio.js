@@ -80,7 +80,10 @@ export default function Portfolio() {
             </Card.Body>
 
             <div>
-              <Button className="m-3" href="https://online-chat-dbb37.web.app/">
+              <Button
+                className="m-3"
+                href="https://online-chat-dbb37.firebaseapp.com/"
+              >
                 DEPLOYED APP
               </Button>
               <Button
