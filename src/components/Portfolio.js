@@ -19,31 +19,67 @@ export default function Portfolio() {
         style={{ marginTop: "80px" }}
       >
         <CardGroup className="gap-5">
-          <Card className="p-3 bg-success p-2 text-white bg-opacity-75">
+
+
+        <Card className="p-3 bg-success p-2 text-white bg-opacity-75">
             <Card.Body>
-              <Card.Title>PROJECT MANAGEMENT SYSTEM</Card.Title>
+              <Card.Title>
+                MANAGEMENT SYSTEM FOR CONSTRUCTION TEAMS (React, Redux Toolkit, TypeScript, MERN stack)
+              </Card.Title>
               <Card.Text>
-                Web and mobile version app to create and manage projects, assign
-                task to register users and add comments. Firebase backend(email
-                and password authentication, firebase database, storage)
+                Web aplication to manage site paperwork on construction site (inspection forms, quality checksheets, task, etc..)
+                State management with Redux Toolkit. API with Express. Data base - MongoDB Atlas.
               </Card.Text>
             </Card.Body>
             <div>
-              <Button
-                className="m-3"
-                href="https://project-management-bff82.firebaseapp.com"
-              >
-                DEPLOYED APP
-              </Button>
+      
 
               <Button
                 className="m-3"
-                href="https://github.com/Solarius24/project-management-app.git"
+                href="https://github.com/Solarius24/Management-System-For-Construction-Teams.git"
               >
                 VIEW ON GITHUB
               </Button>
             </div>
           </Card>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <Card className="p-3 bg-success p-2 text-white bg-opacity-75">
+            <Card.Body>
+              <Card.Title>
+                CODE BOOK (JavaScript Playground, Redux, TypeScript)
+              </Card.Title>
+              <Card.Text>
+                JavaScript playground to write and run code. State management
+                with Redux. Bundling with esbuild, backend and authentication - Firebase.
+              </Card.Text>
+            </Card.Body>
+            <div>
+              <Button className="m-3" href="https://code-book-7ca65.web.app/">
+                DEPLOYED APP
+              </Button>
+
+              <Button
+                className="m-3"
+                href="https://github.com/Solarius24/code-book-firebase-version.git"
+              >
+                VIEW ON GITHUB
+              </Button>
+            </div>
+          </Card>
+
 
           <Card className="p-3 bg-success p-2 text-white bg-opacity-75">
             <Card.Body>
@@ -68,27 +104,47 @@ export default function Portfolio() {
             </div>
           </Card>
         </CardGroup>
+
         <CardGroup className="gap-5 mt-3">
+        <Card className="p-3 bg-success p-2 text-white bg-opacity-75">
+            <Card.Body>
+              <Card.Title>PROJECT MANAGEMENT SYSTEM</Card.Title>
+              <Card.Text>
+                Web and mobile version app to create and manage projects, assign
+                task to register users and add comments. Firebase backend(email
+                and password authentication, firebase database, storage)
+              </Card.Text>
+            </Card.Body>
+            <div>
+              <Button
+                className="m-3"
+                href="https://project-management-bff82.firebaseapp.com"
+              >
+                DEPLOYED APP
+              </Button>
+
+              <Button
+                className="m-3"
+                href="https://github.com/Solarius24/project-management-app.git"
+              >
+                VIEW ON GITHUB
+              </Button>
+            </div>
+          </Card>
           <Card className="p-3 bg-success p-2 text-white bg-opacity-75">
             <Card.Body>
-              <Card.Title>CHAT APP</Card.Title>
+              <Card.Title>PHOTO ALBUM (REDUX + RTK) </Card.Title>
               <Card.Text>
-                Basic chat app (web version) with firebase backend.
-                Authentication (email and password verification). Styling with
-                bootstrap and bootstrap-react.
+                Photo album app with jason-server as a local backend and data
+                from Faker. All state menagement build with Redux and Redux
+                Toolkit. Styling with Tailwindcss.
               </Card.Text>
             </Card.Body>
 
             <div>
               <Button
                 className="m-3"
-                href="https://online-chat-dbb37.firebaseapp.com/"
-              >
-                DEPLOYED APP
-              </Button>
-              <Button
-                className="m-3"
-                href="https://github.com/Solarius24/chat-app.git"
+                href="https://github.com/Solarius24/photo-album-redux.git"
               >
                 VIEW ON GITHUB
               </Button>
@@ -117,6 +173,7 @@ export default function Portfolio() {
             </div>
           </Card>
         </CardGroup>
+
         <CardGroup className="gap-5 mt-3">
           <Card className="p-3 bg-success p-2 text-white bg-opacity-75">
             <Card.Body>
@@ -136,6 +193,33 @@ export default function Portfolio() {
             </div>
           </Card>
 
+          <Card className="p-3 bg-success p-2 text-white bg-opacity-75">
+            <Card.Body>
+              <Card.Title>CHAT APP</Card.Title>
+              <Card.Text>
+                Basic chat app (web version) with firebase backend.
+                Authentication (email and password verification). Styling with
+                bootstrap and bootstrap-react.
+              </Card.Text>
+            </Card.Body>
+
+            <div>
+              <Button
+                className="m-3"
+                href="https://online-chat-dbb37.firebaseapp.com/"
+              >
+                DEPLOYED APP
+              </Button>
+              <Button
+                className="m-3"
+                href="https://github.com/Solarius24/chat-app.git"
+              >
+                VIEW ON GITHUB
+              </Button>
+            </div>
+          </Card>
+        </CardGroup>
+        <CardGroup className="gap-5 mt-3">
           <Card className="p-3 bg-success p-2 text-white bg-opacity-75">
             <Card.Body>
               <Card.Title>WEBSITE PORTFOLIO</Card.Title>
