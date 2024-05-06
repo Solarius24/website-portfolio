@@ -56,7 +56,7 @@ export default function AboutMe() {
 
           <Card className="bg-warning rounded">
             <Card.Header className="text-center fw-bold fs-4">
-              I have completed courses listed below:
+              List of completed courses:
             </Card.Header>
             <ListGroup variant="flush">
               <ListGroup.Item className="bg-warning h5">
