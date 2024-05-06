@@ -19,7 +19,9 @@ export default function Portfolio() {
         style={{ marginTop: "80px" }}
       >
         <CardGroup className="gap-5">
-          <Card className="p-3 bg-success p-2 text-white bg-opacity-75">
+
+
+        <Card className="p-3 bg-success p-2 text-white bg-opacity-75">
             <Card.Body>
               <Card.Title>
                 MANAGEMENT SYSTEM FOR CONSTRUCTION TEAMS (React, Redux Toolkit,
@@ -33,6 +35,8 @@ export default function Portfolio() {
               </Card.Text>
             </Card.Body>
             <div>
+      
+
               <Button
                 className="m-3"
                 href="          https://field-view-b78b4.web.app"
@@ -98,11 +102,16 @@ export default function Portfolio() {
           </Card>
         </CardGroup>
 
+
         <CardGroup className="gap-5 mt-3">
-          <Card className="p-3 bg-success p-2 text-white bg-opacity-75">
+        <Card className="p-3 bg-success p-2 text-white bg-opacity-75">
             <Card.Body>
               <Card.Title>PROJECT MANAGEMENT SYSTEM</Card.Title>
+              <Card.Title>PROJECT MANAGEMENT SYSTEM</Card.Title>
               <Card.Text>
+                Web and mobile version app to create and manage projects, assign
+                task to register users and add comments. Firebase backend(email
+                and password authentication, firebase database, storage)
                 Web and mobile version app to create and manage projects, assign
                 task to register users and add comments. Firebase backend(email
                 and password authentication, firebase database, storage)
@@ -111,6 +120,7 @@ export default function Portfolio() {
             <div>
               <Button
                 className="m-3"
+                href="https://project-management-bff82.firebaseapp.com"
                 href="https://project-management-bff82.firebaseapp.com"
               >
                 DEPLOYED APP
@@ -135,8 +145,29 @@ export default function Portfolio() {
             </Card.Body>
 
             <div>
+
               <Button
                 className="m-3"
+                href="https://github.com/Solarius24/project-management-app.git"
+              >
+                VIEW ON GITHUB
+              </Button>
+            </div>
+          </Card>
+          <Card className="p-3 bg-success p-2 text-white bg-opacity-75">
+            <Card.Body>
+              <Card.Title>PHOTO ALBUM (REDUX + RTK) </Card.Title>
+              <Card.Text>
+                Photo album app with jason-server as a local backend and data
+                from Faker. All state menagement build with Redux and Redux
+                Toolkit. Styling with Tailwindcss.
+              </Card.Text>
+            </Card.Body>
+
+            <div>
+              <Button
+                className="m-3"
+                href="https://github.com/Solarius24/photo-album-redux.git"
                 href="https://github.com/Solarius24/photo-album-redux.git"
               >
                 VIEW ON GITHUB
@@ -167,6 +198,7 @@ export default function Portfolio() {
           </Card>
         </CardGroup>
 
+
         <CardGroup className="gap-5 mt-3">
           <Card className="p-3 bg-success p-2 text-white bg-opacity-75">
             <Card.Body>
@@ -186,6 +218,33 @@ export default function Portfolio() {
             </div>
           </Card>
 
+          <Card className="p-3 bg-success p-2 text-white bg-opacity-75">
+            <Card.Body>
+              <Card.Title>CHAT APP</Card.Title>
+              <Card.Text>
+                Basic chat app (web version) with firebase backend.
+                Authentication (email and password verification). Styling with
+                bootstrap and bootstrap-react.
+              </Card.Text>
+            </Card.Body>
+
+            <div>
+              <Button
+                className="m-3"
+                href="https://online-chat-dbb37.firebaseapp.com/"
+              >
+                DEPLOYED APP
+              </Button>
+              <Button
+                className="m-3"
+                href="https://github.com/Solarius24/chat-app.git"
+              >
+                VIEW ON GITHUB
+              </Button>
+            </div>
+          </Card>
+        </CardGroup>
+        <CardGroup className="gap-5 mt-3">
           <Card className="p-3 bg-success p-2 text-white bg-opacity-75">
             <Card.Body>
               <Card.Title>CHAT APP</Card.Title>
